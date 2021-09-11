@@ -7,7 +7,7 @@ command: eovpn
 finish-args:
   - --share=ipc
   - --share=network
-  - --socket=x11
+  - --socket=fallback-x11
   - --socket=wayland
   - --talk-name=org.freedesktop.Flatpak
   - --talk-name=org.freedesktop.Notifications
@@ -15,6 +15,7 @@ finish-args:
   - --persist=path
   - --socket=system-bus
   - --device=dri
+
 
 modules:
 
@@ -153,4 +154,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/jkotra/eOVPN
-        tag: "1.08"
+        tag: "1.10"
