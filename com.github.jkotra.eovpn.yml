@@ -11,7 +11,7 @@ finish-args:
   - --socket=wayland
   - --talk-name=org.freedesktop.Flatpak
   - --talk-name=org.freedesktop.Notifications
-  - --filesystem=home
+  - --filesystem=host
   - --persist=path
   - --socket=system-bus
   - --device=dri
@@ -154,4 +154,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/jkotra/eOVPN
-        tag: "1.12"
+        tag: "1.13"
