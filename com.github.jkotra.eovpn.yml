@@ -191,4 +191,5 @@ modules:
     buildsystem: meson
     sources:
       - type: git
+        url: https://github.com/jkotra/eOVPN
         branch: "flatpak_cleanup"
