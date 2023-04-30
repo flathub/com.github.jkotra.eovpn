@@ -194,4 +194,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/jkotra/eOVPN
-        tag: "1.26.1"
+        tag: "1.27"
