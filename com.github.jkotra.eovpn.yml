@@ -196,5 +196,6 @@ modules:
     config-opts:
       - "-Dopenvpn3=true"
     sources:
-      - type: dir
+      - type: git
+        url: https://github.com/jkotra/eOVPN
         tag: "1.28.1"
