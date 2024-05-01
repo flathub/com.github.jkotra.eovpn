@@ -197,4 +197,4 @@ modules:
       - "-Dopenvpn3=true"
     sources:
       - type: dir
-        path: "../../"
+        tag: "1.28.1"
