@@ -8,7 +8,7 @@ finish-args:
   - --share=network
   - --socket=fallback-x11
   - --socket=wayland
-  - --socket=system-bus
+  # - --socket=system-bus
   - --share=ipc
   - --filesystem=xdg-run/gvfsd
   - --filesystem=home/.cert/:create
