@@ -4,13 +4,12 @@ runtime-version: '48'
 sdk: org.gnome.Sdk
 command: eovpn
 
+
 finish-args:
   - --share=network
   - --socket=fallback-x11
   - --socket=wayland
-  # - --socket=system-bus
   - --share=ipc
-  - --filesystem=xdg-run/gvfsd
   - --filesystem=home/.cert/:create
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.secrets
@@ -19,7 +18,6 @@ finish-args:
   - --system-talk-name=net.openvpn.v3.sessions
   - --system-talk-name=net.openvpn.v3.log
   - --device=dri
-
 modules:
   - name: intltool
     cleanup:
