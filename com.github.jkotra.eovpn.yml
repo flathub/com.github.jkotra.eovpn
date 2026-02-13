@@ -143,13 +143,6 @@ modules:
         url: 'https://github.com/open-source-parsers/jsoncpp.git'
         tag: '1.9.5'
 
-  - name: libcap-ng
-    buildsystem: autotools
-    sources:
-      - type: git
-        url: 'https://github.com/stevegrubb/libcap-ng'
-        tag: 'v0.8.3'
-
   - name: tinyxml2
     buildsystem: meson
     sources:
