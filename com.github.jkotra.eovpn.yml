@@ -28,7 +28,7 @@ modules:
         sha256: 67c74d94196b153b774ab9f89b2fa6c6ba79352407037c8c14d5aeb334e959cd
 
   - name: linux-pam
-    buildsystem: autotools
+    buildsystem: meson
     sources: 
       - type: archive
         url: https://github.com/linux-pam/linux-pam/releases/download/v1.7.2/Linux-PAM-1.7.2.tar.xz
